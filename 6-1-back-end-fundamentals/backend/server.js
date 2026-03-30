@@ -24,10 +24,18 @@
     });
 
 // TODO 6: Create the "/about" route
-
+app.get('/about', (req, res) => {
+  res.send('This is the about route');
+});
 
 
 // TODO 7: Create the "/student" route
+   app.get('_________', (req, res) => {
+     res.____({
+       name: '_____',
+       major: '________________'
+     });
+   });
 
 
 
