@@ -13,9 +13,12 @@
     app.use(cors());
 
 // TODO 4: Start the server
-
+    app.listen(3000, () => {
+        console.log('Server is running on port 3000');
+    }); 
 
 // TODO 5: Create the home route "/"
+ 
 
 
 
