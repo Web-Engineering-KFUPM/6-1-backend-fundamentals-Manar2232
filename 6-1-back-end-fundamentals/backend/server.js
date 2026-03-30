@@ -9,7 +9,8 @@
 
 
 // TODO 3: Allow React to access the server
-
+    import cors from 'cors';
+    app.use(cors());
 
 // TODO 4: Start the server
 
