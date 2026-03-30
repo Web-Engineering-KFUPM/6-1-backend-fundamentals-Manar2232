@@ -4,10 +4,14 @@
 
 
 // TODO 2: Create the Express app and store it in a variable named app
+    const app = express();
 
 
 
 // TODO 3: Allow React to access the server
+
+
+// TODO 4: Start the server
 
 
 // TODO 5: Create the home route "/"
