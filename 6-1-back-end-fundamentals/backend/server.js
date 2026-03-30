@@ -12,10 +12,7 @@
     import cors from 'cors';
     app.use(cors());
 
-// TODO 4: Start the server
-    app.listen(3000, () => {
-        console.log('Server is running on port 3000');
-    }); 
+
 
 // TODO 5: Create the home route "/"
 
@@ -30,13 +27,15 @@ app.get('/about', (req, res) => {
 
 
 // TODO 7: Create the "/student" route
-   app.get('_________', (req, res) => {
-     res.____({
-       name: '_____',
-       major: '________________'
+   app.get('/student', (req, res) => {
+     res.json({
+       name: 'Aisha',
+       major: 'Computer Science'
      });
    });
 
 
-
 // TODO 4: Start the server on port 3000
+    app.listen(3000, () => {
+        console.log('Server is running on port 3000');
+    }); 
